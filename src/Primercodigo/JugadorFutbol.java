@@ -9,6 +9,7 @@ public class JugadorFutbol {
     private int numeroCamiseta;
     private int cambiaNacionalidad;
 
+
     public JugadorFutbol(){
 
     }
@@ -66,5 +67,9 @@ public class JugadorFutbol {
 
     public void setNumeroCamiseta(int numeroCamiseta) {
         this.numeroCamiseta = numeroCamiseta;
+    }
+
+    public void patearBalon(){
+        System.out.println();
     }
 }
